@@ -1,5 +1,5 @@
 # Controlador Semáforo
-Esse projeto consiste em desenvolver um programap para CLP que controle o semáfro em um cruzamento de duas vias de mão única.
+Esse projeto consiste em desenvolver um programa para CLP que controle o semáfro em um cruzamento de duas vias de mão única.
 
 Para isso, usaremos 3 linguagens diferentes:
 
@@ -28,6 +28,8 @@ Os requisitos são:
 - Incluir uma entrada para controlar o início/reset do sistema.
 
 ## Linguagem Ladder usando CodeSys
+
+A linguagem CLP (Control Logic Programming) Ladder é uma linguagem de programação gráfica usada para programar controladores lógicos programáveis em sistemas de automação industrial.
 
 ### 2 Pontos:
 
@@ -105,6 +107,9 @@ Figura 4: Objeto visual 3 semáforos
 
 ## Linguagem de blocos FBD ZelioSoft
 
+
+A linguagem FBD (Function Block Diagram) é uma linguagem de programação gráfica usada para representar funções e operações em blocos interconectados.
+
 Agora iremos resolver o mesmo problema utilizando a linguagem de blocos FBD. Para isso, optamos por usar a ferramenta ZelioSoft pois ela representa as entradas e saídas do controlador tornando mais fácil esse tipo de programação:
 
 ![Figura 5: FBD 2 Pontos](imgs/Untitled%205.png)
@@ -142,6 +147,8 @@ Figura 7: Inputs
 Figura 8: Outputs
 
 ## Linguagem SFC ZelioSoft
+
+A linguagem SFC (Sequential Function Chart) é uma linguagem gráfica de programação utilizada para representar o comportamento sequencial de um sistema, permitindo a modelagem de estados e transições.
 
 ### 2 Pontos:
 
